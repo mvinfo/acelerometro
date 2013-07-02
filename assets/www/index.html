@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Acelerômetro</title>
+    <script src="jquery-1.6.3.min.js"></script>
+    <script src="jquery.mobile-1.3.1.js"></script>
+    <link rel="stylesheet" href="jquery.mobile-1.3.1.css"/>
+    <link rel="stylesheet" href="jquery.mobile.structure-1.3.1.min.css"/>
+    <script type="text/javascript" src="cordova-2.7.0.js" ></script>
+    <script type="text/javascript" src="Acelerometro.js"></script>
+</head>
+<body onLoad="init();">
+<div data-role="page" id="home" data-theme="a">
+    <div data-role="header" data-theme="e">
+        <h1>ACELEROMETRO</h1>
+    </div>
+    <div><br>
+        <table border="1" align="center" style="border-color:lime;">
+            <tr align="center"> <td width="100px">X</td> <td id="x" width="200px"></td> </tr>
+            <tr align="center"> <td>Y</td> <td id="y"></td> </tr>
+            <tr align="center"> <td>Z</td> <td id="z"></td> </tr>
+            <tr align="center"> <td>Timestamp</td> <td id="timestamp"></td>
+        </table><br>
+    </div>
+    <div data-role="footer" data-theme="e"></div>
+</div>
+</body>
+</html>
